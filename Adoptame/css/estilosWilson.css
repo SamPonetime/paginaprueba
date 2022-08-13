@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+}
+
+.contenedor {
+  padding: 10px 0;
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: #499bea;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.articles {
+  color: #499bea;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 1%;
+}
+.articles p {
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 1%;
+  padding-bottom: 0%;
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+}
+
+/*PseudoClases y pseudoelements*/
+
+a:link {
+  color: #ffc107;
+}
+a:visited {
+  color: #546e7a;
+}
+nav:first-child a{
+  color:#ffffff;
+}
+nav:first-child a:hover
+{
+  background-color: #ffc107;
+}
+
+h1:first-child:hover{
+background-color: #ffc107;
+}
+
+#linkExterno{
+  font-size: 15px;
+}
+#formContact{
+  font-size: 16px;
+}
+input[type="number"]:disabled {
+  background: #dddddd;
+}
+
+p::first-line {
+  font-style: italic;
+  
+}
+
+/*Videos*/
+
+iframe {
+  margin: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* Header */
+
+header {
+  width: 100%;
+  height: 1000px;
+  background: #bc4e9c;
+  background: linear-gradient(to right, #499bea, hsla(317, 35%, 42%, 0.464)),
+    url(../imagenes/portada.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+a.button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+header .textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-header h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.textos-header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.textos-header h3 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.textos-header h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Galeria */
+
+.portafolio {
+  background: #f2f2f2;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen {
+  width: 24%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/*Imagenes hover*/
+img:hover {
+  color: #cf3b3b;
+}
+/* video */
+
+.about-services {
+  background: #f2f2f2;
+  padding-bottom: 30px;
+}
+
+.servicio-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.servicio-ind {
+  width: 28%;
+  text-align: center;
+}
+
+.servicio-ind img {
+  width: 90%;
+}
+
+.servicio-ind h3 {
+  margin: 10px 0;
+}
+
+.servicio-ind p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+hr {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 90%;
+  
+}
+/* footer */
+
+footer {
+  background: #499bea;
+  padding: 20px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-foo {
+  text-align: center;
+}
+
+.titulo-final {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  color: #ffffff;
+}
+
+.headervarias
+{
+    width: 100%;
+    height: 400px;
+    background: #bc4e9c;
+    background: linear-gradient(to right, #499bea, hsla(317, 35%, 42%, 0.464)),
+      url(../imagenes/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contactodatos {
+  color:black;
+  font-size:23px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+
+.contactodatos2 {
+  color:black;
+  font-size:20px;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+.textoparrafo {
+  color:black;
+  font-size: 18px;
+  text-align:justify;
+  margin-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+li{
+  font-size: 18px;
+  text-align:justify;
+  margin-left: 5%;
+}
+
+aside{
+  border-radius: 3px;
+  margin-right: 8%;
+  padding-right: 1%;
+  padding-left: auto;
+  padding-top: 2%;
+  text-align:justify;
+  float:right;
+  border-radius: 5%;
+}

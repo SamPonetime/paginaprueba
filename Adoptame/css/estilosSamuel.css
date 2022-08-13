@@ -1,0 +1,67 @@
+h1 {
+    font-family:Monaco,Georgia,Times,serif;
+    text-align: center;
+   }
+   
+   
+   
+   #contenedor{
+       background-color:  rgb(158, 211, 255);
+       border-radius: 50px;
+       padding: 25px;
+       margin-top: 10px;
+       line-height: 30px;
+       
+   }
+
+   ul{
+     text-align: center;
+   }
+
+
+
+   aside {
+    width: 20%;
+    height: 400px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+  }
+   table 
+   { 
+     margin-left: auto;
+     margin-right: auto;
+     border-collapse: separate;
+     border-spacing: 15px 2px;
+     border: none;
+   }
+    
+   .formulario
+   {
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 5px;
+     border: 1px solid #39c;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 15px;
+   }
+   
+   #altoinput
+   {
+    height: 40px; 
+    width:300px;
+     
+   }
+   
+   #center
+   {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0%;
+   
+   }
+
+  
